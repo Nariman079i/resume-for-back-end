@@ -1,130 +1,389 @@
-<div class="q1"></div>
-<div class="main about">
-  <div class="minf"></div>
-  <div class="mimg"></div>
-  <div class="minf2"></div>
-  <div class="mtext">ИБРАГИМОВ НАРИМАН
-    ИБРАГИМОВИЧ <p class="age">17 ЛЕТ</p></div>
-</div>
-<div class="edu">образоварие </div>
-<div class="language">языки </div>
-<div class="courses"> курсы</div>
-<div class="skills">навыки </div>
-<div class="experience"> опыт  </div>
-<div class="about"> о себе </div>
-<div></div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume</title>
+</head>
+<body>
+  <div style="width:100% ; height: 40px; background-color: black;"></div>
+  <div class="content">
+    <div class="main-info">
+      <div class="photo"></div>
+      <div class="user">ИБРАГИМОВ НАРИМАН ИБРАГИМОВИЧ</div>
+      <div class="age">17 ЛЕТ</div>
+      <div class="work"><pre style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Желаемая должность:
+        Заработная плата:</pre> 
+         </div>
+      <div class="workp">          Back-End Разработчик-стажёр
+        20000 руб</div>
+    </div>
+    <div class="contacts">
+      <div class="mc">
+        <div class="cico"></div>
+        <div class="ctext">КОНТАКТЫ</div>
+      </div>
+      <div class="social">
+        <p><div class="wico"></div><div class="wico2"></div><div class="wtext">+7 (928) 060-80-63</div></p>
+        <p><div class="mico"></div><div class="mtext">nariman079i@index.ru</div></p>
+        <p><div class="gico"></div><a href="https://github.com/Nariman079i/" target="blank" class="gtext">/nariman079i/</a></p>
+        <p><div class="iico"></div><a href="https://www.instagram.com/_xlln._" class="itext">_xlln._</a></p>
+        <p><div class="uico"></div><div class="utext">Web-dev real</div></p>
+      </div>
+    </div>
+    <div class="edu"></div>
+  </div>
 
-<div class="q2"></div>
+</body>
 <style>
-  
   body{
-    margin: auto;
-  }
-  .q1{
-    position: absolute;
+    margin:0;
     width: 100%;
-    height: 40px;
-
-    background: #000000;
   }
-  .q2{
-    position: absolute;
-    bottom: 0;
-width: 100%;
-height: 40px;
+  .content{
+    width: 1270px;
+    height: 100vh;
+    
+    margin-right: auto;
+    margin-left: auto;
+    
+    position: relative;
 
-background: #000000;
-  }
-  .minf{
-    position: absolute;
-    left: 125px;
-    width: 1124px;
-    height: 492px;
-
-    border: 1px solid #000000;
-    border-radius: 0px 0px 36px 36px;
-  }
-  .minf2{
-    position: absolute;
-
-    right: 125px;
-
-    width: 513px;
-    height: 509px;
-
-    border: 1px solid #000000;
-    border-radius: 0px 0px 36px 36px;
-  }
-  .mimg{
-    position: absolute;
-    left: 200px;
-
-    width: 223px;
-    height: 308px;
-
-    background: rgba(255, 0, 0, 0);
-    border: 8px dashed rgba(0, 0, 0, 0.48);
-    border-radius: 18px;
-  }
-  .mtext{
-    position: absolute;
-    top: 70px;
-    left: 480px;
-
-    width: 743px;
-    height: 140px;
-
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    
-    font-weight: 700;
-    font-size: 64px;
-    line-height: 50px;
+    }
+  /* Main block*/
+  .main-info{
+    
+    
+    width: 850.7px;
+    height: 372.37px;
+
+    border: 0.756853px solid #000000;
+    border-radius: 0px 0px 27.2467px 27.2467px;
+  }
+  .photo{
+    position: relative;
+    left: 40px;
+    top: -20px;
+
+
+    width: 168.78px;
+    height: 233.11px;
+
+    background: url("avar.jpg");
+    background-size: cover;
+    border: 6.05483px solid rgba(0, 0, 0);
+    border-radius: 13.6234px;
+  }
+  .user{
+    position: relative;
+    left: 240px;
+    top: -200px;
+    width: 600.34px;
+    height: 105.96px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48.4386px;
+    line-height: 38px;
     /* or 78% */
 
     display: flex;
     align-items: center;
 
     color: #000000;
+
   }
   .age{
-    position: absolute;
-    top: 125px;
-    width: 217px;
-    height: 66px;
+    position: relative;
+    
+    left: 240px;
+    top: -220px;
+    width: 562.34px;
+    height: 105.96px;
 
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 48px;
-    line-height: 50px;
-    /* or 104% */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style:200;
+    font-size: 36.4386px;
+    line-height: 38px;
+    /* or 78% */
 
     display: flex;
     align-items: center;
 
     color: #10C6FF;
+
   }
+  .work{
+    left: 40px;
+    top: -210px;
+    position: relative;
+
+    width: 364.8px;
+    height: 93.85px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25.733px;
+    line-height: 38px;
+    /* or 147% */
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+  }
+  .workp{
+    left: 350px;
+    top: -299px;
+    position: relative;
+    width: 426.87px;
+    height: 87.04px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 25.733px;
+    line-height: 38px;
+    /* or 147% */
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+  }
+  /* Main block END*/
+  /* Contact block */
+  .contacts{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 388.27px;
+    height: 385.24px;
+
+    border: 0.756853px solid #000000;
+    border-radius: 0px 0px 27.2467px 27.2467px;
+  }
+  a{
+    text-decoration: none;
+  }
+  .mc{
+    
+    position: relative;
+
+    top: 34px;
+    left: 90px;
+    width: 208.89px;
+    height: 55.25px;
+    
+
+    border: 0.756853px solid #000000;
+    border-radius: 27.6251px;
+  }
+  .cico{
+    position: absolute;
+    
+    left: 6px;
+    top: 7px;
+
+    width: 40.11px;
+    height: 40.11px;
+
+    background: url("cico.png");
+    background-size: cover;
+  }
+  .ctext{
+    position: absolute;
+    left: 59px;
+    top:15px;
+  width: 149.86px;
+  height: 25.73px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25.733px;
+  line-height: 38px;
+  /* or 147% */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+  }
+  .wico{
+    position: absolute;
+    top: 116px;
+    left: 32px;
+width: 40.11px;
+height: 40.11px;
+
+background: url(wico.png);
+background-size: cover;
+  }
+  .wico2{
+    position: absolute;
+    top: 116px;
+    left: 80px;
+    width: 40.11px;
+    height: 40.11px;
+
+    background: url(wico2.png);
+    background-size: cover;
+  }
+  .wtext{
+    position: absolute;
+    top: 123px;
+    left: 135px;
+    width: 235.38px;
+    height: 25.73px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25.733px;
+    line-height: 38px;
+    /* or 147% */
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+  }
+  .mico{
+    position: absolute;
+    top: 166px;
+    left: 41px;
+width: 40.11px;
+height: 40.11px;
+
+background: url(mico.png);
+background-size: cover;
+  }
+  .mtext{
+    position: absolute;
+    top: 173px;
+    left: 96px;
+    width: 235.38px;
+    height: 25.73px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25.733px;
+    line-height: 38px;
+    /* or 147% */
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+  }
+  .gico{
+    position: absolute;
+    top: 207px;
+    left: 28px;
+width: 65.11px;
+height: 65.11px;
+
+background: url(gico.png);
+background-size: cover;
+  }
+.gtext{
+  position: absolute;
+    top: 227px;
+    left: 96px;
+    width: 235.38px;
+    height: 25.73px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25.733px;
+    line-height: 38px;
+    /* or 147% */
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+}
+  .iico{
+    position: absolute;
+    top: 273px;
+    left: 41px;
+width: 40.11px;
+height: 40.11px;
+
+background: url(iico.png);
+background-size: cover;
+  }
+.itext{
+  position: absolute;
+    top: 280px;
+    left: 96px;
+    width: 235.38px;
+    height: 25.73px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25.733px;
+    line-height: 38px;
+    /* or 147% */
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+}
+  .uico{
+    position: absolute;
+    top: 315px;
+    left: 41px;
+width: 40.11px;
+height: 40.11px;
+
+background: url(uico.png);
+background-size: cover;
+  }
+  .utext{
+    position: absolute;
+    top: 323px;
+    left: 96px;
+    width: 235.38px;
+    height: 25.73px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 25.733px;
+    line-height: 38px;
+    /* or 147% */
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+}
+  /* Contact block END*/
   .edu{
-    position: absolute;
+    position: relative;
+    top: 25px;
+    width: 850.7px;
+    height: 266.41px;
 
-    top: 520px;;
-    left: 125px;
-    width: 1124px;
-    height: 352px;
-
-    border: 1px solid #000000;
-    border-radius: 36.5px;
+    border: 0.756853px solid #000000;
+    border-radius: 27.6251px;
   }
-  .language{
-    position: absolute;
-
-    right: 125px;
-top: 540px;
-
-    width: 513px;
-    height: 165px;
-
-    border: 1px solid #000000;
-    border-radius: 36.5px;
-  }
+  
 </style>
+</html>
