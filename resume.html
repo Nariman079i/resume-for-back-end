@@ -32,7 +32,34 @@
         <p><div class="uico"></div><div class="utext">Web-dev real</div></p>
       </div>
     </div>
-    <div class="edu"></div>
+    <div class="edu">
+      <div class="eduico"></div>
+      <div class="edutext">ОБРАЗОВАНИЕ</div>
+      <div class="eduminfo">
+        <div class="title">
+          Среднее профессиональное:<br><br>
+ 
+Факультет: <br>
+Специальность:
+        </div>
+        <div class="college"><pre>
+
+
+                  ГБПОУ РД <br> «Автомобильно-дорожный колледж»
+    
+        </pre>
+             </div>
+        <div class="faculty">
+          Информационные системы и программирование
+        </div>
+        <div class="specialization">
+          Программирование в компьютерных системах
+        </div>
+        <div class="eduyear">
+          2021- н.в
+        </div>
+      </div>
+    </div>
   </div>
 
 </body>
@@ -61,6 +88,7 @@
 
     border: 0.756853px solid #000000;
     border-radius: 0px 0px 27.2467px 27.2467px;
+    border-top: none;
   }
   .photo{
     position: relative;
@@ -158,8 +186,10 @@
   /* Main block END*/
   /* Contact block */
   .contacts{
+    border-top: none;
+
     position: absolute;
-    top: 0;
+    top: -5px;
     right: 0;
     width: 388.27px;
     height: 385.24px;
@@ -197,12 +227,12 @@
   }
   .ctext{
     position: absolute;
-    left: 59px;
+    left: 55px;
     top:15px;
   width: 149.86px;
   height: 25.73px;
 
-  font-family: Roboto;
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 25.733px;
@@ -375,6 +405,9 @@ background-size: cover;
 
 }
   /* Contact block END*/
+
+  /* Education block*/
+
   .edu{
     position: relative;
     top: 25px;
@@ -384,6 +417,147 @@ background-size: cover;
     border: 0.756853px solid #000000;
     border-radius: 27.6251px;
   }
-  
+  .eduico{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 40.11px;
+    height: 40.11px;
+
+    background: url(eduico.png);
+    background-size: cover;
+  }
+  .edutext{
+    position: absolute;
+    top: 23px;
+    left: 65px;
+width: 231.6px;
+height: 25.73px;
+
+font-family: Arial, Helvetica, sans-serif;
+   
+font-style: normal;
+font-weight: bold;
+font-size: 25.733px;
+line-height: 38px;
+/* or 147% */
+
+display: flex;
+align-items: center;
+
+color: #000000;
+
+  }
+  .eduminfo{
+    position: absolute;
+    top: 73px;
+    left: 16px;
+    width: 803.78px;
+    height: 186.19px;
+
+    border: 0.756853px solid #10C6FF;
+    border-radius: 27.6251px;
+  }
+  .title{
+    position: absolute;
+    top: 15px;
+    left: 75px;
+    width: 321.66px;
+    height: 141.53px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22.7056px;
+    line-height: 38px;
+    /* or 167% */
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+
+  }
+  .college{
+    position: absolute;
+    top: 10px;
+    left: 92px;
+width: 653.92px;
+height: 74.93px;
+
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 30.435px;
+line-height: 38px;
+/* or 185% */
+
+display: flex;
+align-items: center;
+
+color: #10C6FF;
+
+
+  }
+  .faculty{
+    position: absolute;
+    top: 91px;
+    left: 202px;
+width: 597.91px;
+height: 24.98px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 20.435px;
+line-height: 38px;
+/* or 185% */
+
+display: flex;
+align-items: center;
+
+color: #000000;
+
+  }
+  .specialization{
+    position: absolute;
+    top: 129px;
+    left:256px ;
+    width: 504.82px;
+    height: 24.98px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20.435px;
+    line-height: 38px;
+    /* or 185% */
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+  }
+  .eduyear{
+    position: absolute;
+    left: 361px;
+    bottom: 2px;
+width: 93.09px;
+height: 30.27px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 18.1645px;
+line-height: 38px;
+/* or 208% */
+
+display: flex;
+align-items: center;
+
+color: #10C6FF;
+
+  }
+  /* Education block END*/
 </style>
 </html>
